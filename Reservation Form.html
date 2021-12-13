@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Forms</title>
+</head>
+<body>
+    <b>Reservation Forms</b><br></br>
+    <form>
+        <div>
+            <label>Name* 
+                <input mandatory id="Name" type="text" placeholder="Name">
+            </label>
+        </div>
+        <div>
+            <label>Email* 
+                <input mandatory id="Email" type="text" placeholder="Email">
+            </label>
+        </div>
+        <div>
+            <label>Room Type
+                <select id="RoomType" name="RoomType">
+                    <option>Select</option>
+                    <option>Normal</option>
+                    <option>Delux</option>
+                    <option>Super Delux</option>
+                    <option>luxery</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <label>Arrival Date*
+                <input mandatory id="ArrivalDate" type="date">
+            </label>
+        </div>
+        <div>
+            <label>Departure Date*
+                <input mandatory id="DepartureDate" type="date">
+            </label>
+        </div>
+        <div>
+            <label>No of guest*
+                <input mandatory id="NoOfGuest" type="number">
+            </label>
+        </div>
+        <div>
+            <label>Free Pickup
+                <input mandatory id="FreePickup" type="radio">Yes
+                <input mandatory id="FreePickup" type="radio">No
+            </label>
+        </div>
+        <div>
+            <label>Flight Number
+                <input id="FlightNumber" type="text" placeholder="Flight Number">
+            </label>
+        </div>
+        <div>
+            <label>Special request
+                <textarea id="SpecialRequest" type="text" placeholder="Type Here"></textarea>
+            </label>
+        </div>
+        <div>
+            <input style="background-color: blue;" type="submit">
+        </div>
+    </form>
+</body>
+</html>
